@@ -1,5 +1,7 @@
 # Humanizing Technology
 
+**Description**: This course provides a broad overview of theories and applied efforts to humanize technology, particularly computer technology, over the past thirty years. Course readings will survey a variety of approaches to the topic, such as open source, human cognition, interface design, and theater. Students will complete applied projects but should also expect to write extensively on the topic.
+
 ## Book List
   * Petzold, Charles. _Code: The Hidden Language of Computer Hardware and Software_. Microsoft Press, 2000. ISBN 0735611319
   * Reas, Casey & Chandler McWilliams. _Form + Code in Design, Art, and Architecture: A Guide to Computational Aesthetics_. New York: Princeton Architectural Press, 2010. ISBN 1568989377
