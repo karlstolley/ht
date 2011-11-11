@@ -1,0 +1,64 @@
+/* Typographic Basics */
+i,em,cite { font-style: italic; }
+b,strong { font-weight: bold; }
+
+/* Headings */
+h1 {
+  font-size: 36px;
+  line-height: 44px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 18px;
+}
+/* Column Grids */
+
+/*Baseline/Mobile Grid*/
+
+.g978 #page {
+  width: 300px; /*Total width works out to 312px*/
+  padding: 22px 6px 22px 6px;
+  background-image: url('grids/img/300px-6-27-6-8c.png');
+}
+#page {
+  width: 96.153846153846%; /* 300px / 312px = 0.96153846153846 */
+  padding: 22px 1.923076923077%; /* 6px / 312px = 0.01923076923077 */
+}
+
+p, ul ul, #information ul {
+  margin-left: 39px;
+  margin-left: 13%; /* 39px / 300px = .13 */
+  margin-bottom: 22px;
+}
+
+ul ul li, #information ul li {
+  margin-left: 39px;
+  text-indent: -39px;
+}
+
+@media screen and (min-width: 760px) {
+  .g978 #page {
+    width: 748px; /*Total width works out to 768px*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('grids/img/748px-10-44-10-12c.png');
+  }
+  #page {
+    width: 97.39583333333%; /* 748px / 768px = 0.97395833333333 */
+    padding: 0px 1.302083333333%; /* 10px / 768px = 0.01302083333333 */
+  }
+}
+
+@media screen and (min-width: 1010px) {
+  /* See http://978.gs/ */
+  .g978 #page {
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('grids/img/978px-15-54-15-12c.png');
+  }
+    /* See http://960.gs/ - Might remove 960 in the future.*/
+  .g960 #page {
+    width: 940px; /*Total width works out to 960*/
+    padding: 0px 10px 0px 10px;
+    background-image: url('grids/img/960px-10-60-10-unit.png');
+  }
+}
