@@ -1,4 +1,9 @@
 /* Typographic Basics */
+html {
+  line-height: 22px;
+  font-size: 14px;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+}
 i,em,cite { font-style: italic; }
 b,strong { font-weight: bold; }
 
@@ -10,6 +15,7 @@ h1 {
 h2 {
   font-weight: bold;
   font-size: 18px;
+  margin-bottom: 11px;
 }
 /* Column Grids */
 
@@ -46,6 +52,28 @@ ul ul li, #information ul li {
     width: 97.39583333333%; /* 748px / 768px = 0.97395833333333 */
     padding: 0px 1.302083333333%; /* 10px / 768px = 0.01302083333333 */
   }
+  h1 { padding-top: 44px; }
+  h2 {
+    position: absolute;
+    width: 172px;
+    left: 10px;
+  }
+  p, ul ul, #information ul {
+    margin-left: 192px;
+    margin-bottom: 22px;
+  }
+  p.tagline {
+    margin-left: 0px;
+    width: 428px;
+  }
+  ul ul li, #information ul li {
+    margin-left: 64px;
+    text-indent: -64px;
+  }
+  div#footer {
+    font-size: 12px;
+    padding-top: 22px;  
+  }
 }
 
 @media screen and (min-width: 1010px) {
@@ -55,10 +83,14 @@ ul ul li, #information ul li {
     padding: 0px 15px 0px 15px;
     background-image: url('grids/img/978px-15-54-15-12c.png');
   }
-    /* See http://960.gs/ - Might remove 960 in the future.*/
-  .g960 #page {
-    width: 940px; /*Total width works out to 960*/
-    padding: 0px 10px 0px 10px;
-    background-image: url('grids/img/960px-10-60-10-unit.png');
+  p, ul ul, #information ul {
+    margin-left: 39px;
+    margin-left: 13%; /* 39px / 300px = .13 */
+    margin-bottom: 22px;
+  }
+
+  ul ul li, #information ul li {
+    margin-left: 39px;
+    text-indent: -39px;
   }
 }
