@@ -83,14 +83,63 @@ ul ul li, #information ul li {
     padding: 0px 15px 0px 15px;
     background-image: url('grids/img/978px-15-54-15-12c.png');
   }
-  p, ul ul, #information ul {
-    margin-left: 39px;
-    margin-left: 13%; /* 39px / 300px = .13 */
+  h1 {
+    margin-right: 336px;
+  }
+  p.tagline {
+    position: absolute;
+    width: 306px;
+    left: 687px;
+    top: 44px;
+    background: #EEE;
+    width: 262px;
+    padding: 22px;
+    top: 22px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px; 
+    /*border-radius: 11px;*/
+  }
+  div#promo {
+    margin-top: 110px;
+    margin-right: 84px;
+    padding-bottom: 44px;
+  }
+  ul#features {
+    width: 642px;
+    float: left;
+  }
+  div#information {
+    background: #EEE;
+    width: 262px;
+    margin-left: 30px;
+    float: left;
+    padding: 22px;
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px; 
+    /*border-radius: 11px;*/
+  }
+  div#information h2 {
+    width: auto;
+    position: static;
     margin-bottom: 22px;
   }
-
-  ul ul li, #information ul li {
-    margin-left: 39px;
-    text-indent: -39px;
+  div#information ul,
+  div#information ul li {
+    margin-left: 0px;
+    text-indent: 0px;
+    margin-bottom: 22px;
   }
+  h2 {
+    width: 222px;
+    left: 15px;
+  }
+  p, ul ul {
+    margin-left: 252px;
+  }
+
+  ul ul li {
+    margin-left: 84px;
+    text-indent: -84px;
+  }
+  div#footer { clear: both; }
 }
