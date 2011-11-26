@@ -9,7 +9,10 @@ i,em,cite { font-style: italic; }
 b,strong { font-weight: bold; }
 
 /* Colors */
-html { background-color: #E6E0DA; }
+html {
+  background-color: #E6E0DA;
+  background-image: url('texture.png');
+}
 body { color: #333; }
 h2 { color: #957147; }
 h1, a { color: #2D4E5E; }
@@ -131,6 +134,7 @@ div#footer {
   p.tagline,
   div#information {
     background: #C3C6C8;
+    background: rgba(195,198,200,.6);
   }
 
   h1 {
