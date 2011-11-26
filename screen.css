@@ -12,6 +12,9 @@ b,strong { font-weight: bold; }
 html {
   background-color: #E6E0DA;
   background-image: url('texture.png');
+  -moz-box-shadow: inset 0px 11px 11px -11px #000;
+  -webkit-box-shadow: inset 0px 11px 11px -11px #000;
+  box-shadow: inset 0px 11px 11px -11px #000;
 }
 body { color: #333; }
 h2 { color: #957147; }
