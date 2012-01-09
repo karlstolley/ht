@@ -78,6 +78,14 @@ ul ul li, #information ul li {
   text-indent: -14.942528735632%; /* 39px / (300px - 39px) = 0.14942528735632 */
 }
 
+ul#calendar > li {
+  border-top: 2px solid #C3C6C8;
+  margin-top: 20px;
+  padding-top: 11px;
+}
+
+ul#calendar .special { color: #600; font-weight: bold; }
+
 /* Extra off-grid padding on reading lists */
 ul ul li { padding-bottom: 11px; }
 ul ul li:last-child { padding-bottom: 0px; }
