@@ -170,7 +170,8 @@ div#footer {
     margin-right: 8.588957055215%; /* 84 / 978 = */
     padding-bottom: 44px;
   }
-  ul#features {
+  ul#features,
+  ul#calendar {
     width: 642px;
     width: 65.644171779141%; /* 642 / 978 = */
     float: left;
@@ -211,7 +212,9 @@ div#footer {
     margin-left: 28.187919463087%; /* 252 / (978 - 84) */
   }
   ul#features ul,
-  ul#features p {
+  ul#features p,
+  ul#calendar ul,
+  ul#calendar p {
     margin-left: 39.252336448598%; /* 252 / 642 */
   }
   ul ul li {
