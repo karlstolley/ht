@@ -109,6 +109,11 @@ div#footer {
   }
   div#promo { margin-top: 44px; }
   h1 { padding-top: 44px; }
+  div#content h1 {
+    padding-top: 88px;
+    padding-bottom: 44px;
+  }
+  .dates div#content h1 { padding-top: 44px; }
   h2 {
     position: absolute;
     width: 172px; /* 172px / 748px = 0.22994652406417 */
@@ -179,7 +184,8 @@ div#footer {
     padding-bottom: 44px;
   }
   ul#features,
-  ul#calendar {
+  ul#calendar,
+  ul#main {
     width: 642px;
     width: 65.644171779141%; /* 642 / 978 = */
     float: left;
@@ -222,7 +228,9 @@ div#footer {
   ul#features ul,
   ul#features p,
   ul#calendar ul,
-  ul#calendar p {
+  ul#calendar p,
+  ul#main ul,
+  ul#main p {
     margin-left: 39.252336448598%; /* 252 / 642 */
   }
   ul ul li {
