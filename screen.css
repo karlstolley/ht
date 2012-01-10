@@ -65,8 +65,11 @@ h1 b { font-weight: bold; }
   padding: 22px 1.923076923077%; /* 6px / 312px = 0.01923076923077 */
 }
 
-ul#nav li { float: left; margin-right: 1em; }
-ul#nav li a { display: block; }
+ul#nav {  }
+ul#nav li { float: left; margin-right: 1em; margin-bottom: 44px; }
+ul#nav li a { display: block; margin-bottom: 1px; }
+ul#nav li a:hover { margin-bottom: 0px; }
+
 div#content { clear: both; }
 p, ol.instructions, ul ul, #information ul {
   margin-left: 39px;
