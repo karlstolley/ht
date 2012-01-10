@@ -68,7 +68,7 @@ h1 b { font-weight: bold; }
 ul#nav li { float: left; margin-right: 1em; }
 ul#nav li a { display: block; }
 div#content { clear: both; }
-p, ul ul, #information ul {
+p, ol.instructions, ul ul, #information ul {
   margin-left: 39px;
   margin-left: 13%; /* 39px / 300px = .13 */
   margin-bottom: 22px;
@@ -79,6 +79,20 @@ ul ul li, #information ul li {
   margin-left: 14.942528735632%; /* 39px / (300px - 39px) = 0.14942528735632 */
   text-indent: -39px;
   text-indent: -14.942528735632%; /* 39px / (300px - 39px) = 0.14942528735632 */
+}
+
+#promo li { margin-bottom: 22px; }
+
+ol.instructions li { list-style-type: decimal; }
+
+code,pre {
+  background: #333;
+  color: #3F0;
+  font-family: monospace;
+}
+pre {
+  padding: 11px;
+  margin-top: 11px;
 }
 
 ul#calendar > li {
@@ -124,7 +138,7 @@ div#footer {
     left: 10px;
     left: 1.302083333333%; /* 10px / 768px = 0.01302083333333 */
   }
-  p, ul ul, #information ul {
+  p, ol.instructions, ul ul, #information ul {
     margin-left: 192px;
     margin-left: 25.668449197861%; /* 192px / 748px = 0.25668449197861 */
     margin-bottom: 22px;
@@ -225,7 +239,9 @@ div#footer {
   p, ul ul {
     /*margin-left: 252px;*/
   }
-  div#promo p {
+  div#promo p,
+  div#promo ul,
+  div#promo ol {
     margin-left: 28.187919463087%; /* 252 / (978 - 84) */
   }
   ul#features ul,
