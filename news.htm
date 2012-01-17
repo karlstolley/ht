@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en" class="">
+<head>
+
+  <title>COM380/580: Humanizing Technology</title>
+
+  <meta charset="utf-8" />
+  <!--
+    Use device width on iPhone, no scaling; no maximum scale.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" media="screen,print" href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css" />
+  <!--<link rel="stylesheet" type="text/css" media="screen" href="grids/grid.css" />-->
+  <link rel="stylesheet" type="text/css" media="screen" href="screen.css" />
+
+  <script type="text/javascript" src="http://use.typekit.com/cdg0mck.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <script type="text/javascript" src="respond.min.js"></script>
+
+</head>
+<body class="news">
+<div id="page">
+  <div id="header">
+    <h1>Humanizing <b>Technology</b></h1>
+    <p class="tagline">A special topics course taught by <a href="http://karlstolley.com">Professor Karl Stolley</a> during Spring Semester 2012 at Illinois Institute of Technology.</p>
+    <ul id="nav">
+      <li><a href="index.htm">Dates</a></li>
+      <li><a href="projects.htm">Projects</a></li>
+      <li><a href="policies.htm">Policies</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <h1>Course <b>News</b></h1>
+    <ul id="main">
+      <li>
+        <h2>Oh-my-zsh</h2>
+        <p class="summary">
+          <b>1/10/12</b>. We will be setting up some unusual technologies tonight. They’ll all be better explained in the coming weeks, but tonight you’ll just have to take a leap of faith.
+        </p>
+        <p>
+          One of the technologies that we’ll set up is <a href="https://github.com/robbyrussell/oh-my-zsh">oh-my-zsh</a>, a set of scripts that will enhance the Z shell (<code>zsh</code>) command-line shell that we’ll be using in this course.
+        </p>
+        <ol class="instructions">
+          <li>Open the Terminal program (aka the command line); it’s under Applications &gt; Accessories.</li>
+          <li>
+            You’ll be greeted with a screen full of dire sounding text that begins with <code>You are
+            seeing this message because you have no zsh startup files (the files .zshenv, .zprofile,
+            .zshrc, .zlogin in the directory ~).</code>. <b>Hit the letter q</b> and you’ll be dropped
+            out on the command line.
+          </li>
+          <li>
+            At the prompt (represented here as a dollar-sign, <code>$</code>, which you should NOT type/copy-and-paste), type or copy and paste the following (without the dollar sign):
+            <pre><b>$ </b>git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh</pre>
+
+          </li>
+          <li>
+            Once that command is finished running and you have your prompt again, you’ll need to make a start-up file (<code>.zshrc</code>) that we’ll do more things with as the semester goes on. For now, type or copy and paste this line (without the dollar sign):
+            <pre><b>$ </b>cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc</pre>
+          </li>
+          <li>
+            The command line can be used to launch graphical programs; that’s what we’ll do here, bringing up your new <code>.zshrc</code> file in the gedit text editor:
+            <pre><b>$ </b>gedit .zshrc &amp;</pre>
+
+          </li>
+          <li>
+            To start, we’ll uncomment out this line in the <code>.zshrc</code>file by deleting the <code>#</code> (hash) in front of it:
+            <pre class="file"># DISABLE_AUTO_UPDATE="true"</pre>
+          </li>
+          <li>
+
+            Next, we’ll set the visual theme to <code>gallois</code> (just so it looks like your instructor’s):
+            <pre class="file">ZSH_THEME="gallois"</pre>
+          </li>
+          <li>
+            Save the file and close the gedit editor. Then close your Terminal program and reopen it.
+          </li>
+        </ol>
+      </li>
+    </ul>
+    <div id="information">
+      <h2>The Course.</h2>
+      <ul>
+        <li><b>COM380/COM580:</b> Humanizing Technology</li>
+        <li><b>Instructor:</b> <a href="http://karlstolley.com">Dr. Karl Stolley</a>; <a href="http://twitter.com/karlstolley">@karlstolley</a> on Twitter</li>
+        <li><b>Office Hours:</b> Tuesdays 3:00 to 5:00 and by appointment in SH208</li>
+        <li><b>Class Meetings:</b> Tuesday nights from 6:25 to 9:05</li>
+      </ul>
+    </div>
+  </div>
+  <div id="footer">
+    <p>
+      Course content and site design by <a href="http://karlstolley.com/">Karl Stolley</a>. Licensed
+      under <a href="http://creativecommons.org/licenses/by-nc/2.0/">Creative Commons (NC-BY)</a>.
+      View development and download the source on
+      <a href="https://github.com/karlstolley/ht">GitHub</a>. Powered by
+      <a href="http://developer.yahoo.com/yui/">Yahoo! Developer YUI Library</a>,
+      <a href="http://jquery.com/">jQuery</a>, and <a href="https://typekit.com">Typekit</a>.
+    </p>
+  </div>
+</div>
+</body>

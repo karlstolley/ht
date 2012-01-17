@@ -96,6 +96,7 @@ code,pre {
 pre {
   padding: 11px;
   margin-top: 11px;
+  overflow: auto;
 }
 
 ul#calendar > li {
@@ -252,9 +253,11 @@ div#footer {
   ul#calendar ul,
   ul#calendar p,
   ul#main ul,
-  ul#main p {
+  ul#main p,
+  ul#main ol {
     margin-left: 39.252336448598%; /* 252 / 642 */
   }
+
   ul ul li {
     margin-left: 84px;
     text-indent: -84px;
